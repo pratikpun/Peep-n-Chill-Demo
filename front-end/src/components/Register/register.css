@@ -1,0 +1,17 @@
+.form-card {
+  border: 1px solid black;
+  background-color: #cfd6ea;
+  color: black;
+  width: 30%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.register-home {
+  background-color: #f4f4ed;
+}
+.register-link {
+}

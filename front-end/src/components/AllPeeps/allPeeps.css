@@ -1,0 +1,21 @@
+.peep-card {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  /* position: relative; */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.peep-card h5 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.peep-card p {
+  font-size: 0.9em;
+}
+
+.date {
+  text-align: right;
+}
