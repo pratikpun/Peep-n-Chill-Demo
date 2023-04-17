@@ -1,7 +1,7 @@
 import { request } from "express";
 import { validationResult } from "express-validator";
 import { addUserService } from "../services/allUsers.services.js";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 
 // export const addUserController = async (req, res) => {
 //   const errors = validationResult(req);
