@@ -12,7 +12,7 @@ const Header = ({ currentUser }) => {
     }
   }, [loggedInUser]);
 
-  console.log(user);
+  // console.log(user);
   const logout = () => {
     localStorage.clear();
     setUser({});
