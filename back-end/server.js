@@ -17,6 +17,9 @@ const host = process.env.HOST;
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
+// Have Node serve the files for our built React app
+// console.log(`Hello ${__dirname}`);
+// app.use(express.static(path.resolve(__dirname, "../front-end/dist")));
 
 // middleware
 // app.use((req, res, next) => {

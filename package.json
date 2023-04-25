@@ -4,7 +4,8 @@
   "description": "A full stack application that takes an inspirations from Blogs. Users can read peeps(blogs) made by themselves and others. Has authentication for registering a new user to the database, logging in and out a current user. A Peep can only be made if a user is logged in, otherwise they can only view peeps that have been posted.",
   "main": "index.js",
   "workspaces": [
-    "front-end"
+    "front-end",
+    "back-end"
   ],
   "scripts": {
     "build": "npm run build --workspaces",
