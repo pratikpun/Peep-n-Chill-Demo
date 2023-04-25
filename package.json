@@ -1,0 +1,26 @@
+{
+  "name": "peepnchilltest",
+  "version": "1.0.0",
+  "description": "A full stack application that takes an inspirations from Blogs. Users can read peeps(blogs) made by themselves and others. Has authentication for registering a new user to the database, logging in and out a current user. A Peep can only be made if a user is logged in, otherwise they can only view peeps that have been posted.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build",
+    "backEnd": "npm run start --prefix back-end",
+    "frontEnd": "npm start --prefix front-end",
+    "start": "concurrently \"npm run backEnd\" \"npm run frontEnd\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikpun/Peep-n-Chill-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikpun/Peep-n-Chill-Demo/issues"
+  },
+  "homepage": "https://github.com/pratikpun/Peep-n-Chill-Demo#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

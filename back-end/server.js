@@ -26,9 +26,9 @@ app.use(bodyParser.json());
 
 // connection to database
 const main = async () => {
-  console.log(`Connecting to DB @ ${process.env.DB_URI}`);
+  console.log(`Connecting to DB`);
   await mongoose.connect(process.env.DB_URI);
-  console.log(`Connected to DB @ ${process.env.DB_URI}`);
+  console.log(`Connected to DB `);
 };
 main().catch((err) => console.log(err));
 
