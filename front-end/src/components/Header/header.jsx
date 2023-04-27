@@ -23,7 +23,7 @@ const Header = ({ currentUser }) => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid p-3">
             <a className="navbar-brand border-bottom logo" href="/">
-              Peep n Chitter
+              Peep n Chill
             </a>
             <button
               className="navbar-toggler"
